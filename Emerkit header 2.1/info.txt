@@ -1,0 +1,25 @@
+Simple header with the navbar straight	under the logo no burger menu
+
+body: The body of the webpage is set to be a flex container, with items arranged in a column and centered. The background color is set to #f0f0f0.
+
+.header: This class styles the header of the webpage. It's also a flex container, but items are arranged in a row. The items are spaced evenly and centered. The header has a white background and a margin at the bottom.
+
+.nav-logo: This class styles the logo in the navbar. It has a margin of 32px on all sides, but the left margin is specifically set to 32px.
+
+.navbar-container: This class styles the container for the navbar. It's a flex container with items arranged in a column and centered. The container aligns itself to the end of the flex container.
+
+.navbar: This class styles the navbar itself. It's a flex container with items arranged in a row and aligned to the end.
+
+.nav-menu: This class styles the navigation menu. It's a flex container with items arranged in a row and aligned to the end. The list style is set to none and padding is set to 0.
+
+.nav-menu a:hover: This class styles the hover effect for the links in the navigation menu. The text color changes to #007bff and the background color changes to black.
+
+.nav-item: This class styles the individual items in the navigation menu. They have a margin of 20px.
+
+@media screen and (max-width: 1024px): This is a media query that applies styles when the viewport is 1024px wide or less. It modifies the styles for .header, .nav-menu, and .nav-item.
+
+.burger-menu: This class styles a burger menu (a menu icon with three horizontal lines). It's initially hidden (display: none), but becomes visible and functional on smaller screens (as per the media query).
+
+.burger-menu div: This class styles the individual lines in the burger menu.
+
+.nav-item .sub-menu: This class styles a sub-menu in the navigation menu. It's initially hidden (display: none), but is displayed when the .nav-item is hovered over
